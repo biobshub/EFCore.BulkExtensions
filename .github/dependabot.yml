@@ -10,8 +10,7 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-    reviewers:
-      "borisdj"
+    reviewers: "borisdj"
   # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.Core"
@@ -21,8 +20,7 @@ updates:
     ignore:
         dependency-name: "*"
         update-types: ["version-update:semver-major"]
-    reviewers:
-      "borisdj"
+    reviewers: "borisdj"
   # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.SqlServer"
@@ -32,8 +30,7 @@ updates:
     ignore:
         dependency-name: "*"
         update-types: ["version-update:semver-major"]
-    reviewers:
-      "borisdj"
+    reviewers: "borisdj"
   # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.PostgreSql"
@@ -43,8 +40,7 @@ updates:
     ignore:
         dependency-name: "*"
         update-types: ["version-update:semver-major"]
-    reviewers:
-      "borisdj"
+    reviewers: "borisdj"
   # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.MySql"
@@ -54,9 +50,7 @@ updates:
     ignore:
         dependency-name: "*"
         update-types: ["version-update:semver-major"]
-    reviewers:
-      "borisdj"
-            "borisdj"
+    reviewers: "borisdj"
   # Maintain dependencies for .NET projects
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.Oracle"
@@ -66,8 +60,7 @@ updates:
     ignore:
         dependency-name: "*"
         update-types: ["version-update:semver-major"]
-    reviewers:
-      "borisdj"
+    reviewers: "borisdj"
   # Maintain dependencies for .NET projects  
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions.Sqlite"
@@ -77,8 +70,7 @@ updates:
     ignore:
         dependency-name: "*"
         update-types: ["version-update:semver-major"]
-    reviewers:
-      "borisdj"
+    reviewers: "borisdj"
         # Maintain dependencies for .NET projects   
   - package-ecosystem: "github-actions"
     directory: "/EFCore.BulkExtensions"
