@@ -20,7 +20,7 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        dependency-name: "*"
+        - dependency-name: "*"
         update-types: ["version-update:semver-major"]
     reviewers: ["borisdj"]
   # Maintain dependencies for .NET projects
@@ -32,7 +32,7 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        dependency-name: "*"
+        - dependency-name: "*"
         update-types: ["version-update:semver-major"]
     reviewers: ["borisdj"]
   # Maintain dependencies for .NET projects
@@ -44,7 +44,7 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        dependency-name: "*"
+        - dependency-name: "*"
         update-types: ["version-update:semver-major"]
     reviewers: ["borisdj"]
   # Maintain dependencies for .NET projects
@@ -56,7 +56,7 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        dependency-name: "*"
+        - dependency-name: "*"
         update-types: ["version-update:semver-major"]
     reviewers: ["borisdj"]
   # Maintain dependencies for .NET projects
@@ -68,7 +68,7 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        dependency-name: "*"
+        - dependency-name: "*"
         update-types: ["version-update:semver-major"]
     reviewers: ["borisdj"]
   # Maintain dependencies for .NET projects  
@@ -80,7 +80,7 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        dependency-name: "*"
+        - dependency-name: "*"
         update-types: ["version-update:semver-major"]
     reviewers: ["borisdj"]
         # Maintain dependencies for .NET projects   
@@ -92,7 +92,7 @@ updates:
     schedule:
       interval: "monthly"
     ignore:
-        dependency-name: "*"
+        - dependency-name: "*"
         update-types: ["version-update:semver-major"]
     reviewers:
       ["borisdj"]
